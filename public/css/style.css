@@ -1,0 +1,329 @@
+h1{
+    position: absolute;
+left: 10.21%;
+right: 74.44%;
+top: 4.46%;
+bottom: 92.68%;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 46px;
+color: #3C7FBD;
+}
+
+span{
+color: #52575C;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav{
+    position: absolute;
+left: 57.27%;
+right: 9.67%;
+top: 8.3%;
+bottom: 85.44%;
+
+}
+
+h6{
+   
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1px;
+
+
+color: #25282B;
+
+}
+
+small{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.1px;
+
+color: #A0A4A8;
+
+}
+
+.line1{
+    
+    position: absolute;
+    left:256px;
+    top: -49px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.line2{
+    position: absolute;
+    left:126px;
+    top: -49px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.line3{
+    position: absolute;
+    left:0px;
+    top: -49px;
+    bottom: 0px;
+    right: 0px;
+}
+.bell{
+    position: absolute;
+    left:41.08px;
+    top: 0px;
+}
+.noti1{
+    position: absolute;
+    left:68.77px;
+    bottom: 43.75px;
+}
+
+.email{
+    position: absolute;
+    left:166.2px;
+    top: 0px;
+}
+
+.noti2{
+    position: absolute;
+    left:201.68px;
+    bottom: 43.75px;
+}
+
+.face{
+    position: absolute;
+    left:280px;
+    bottom: 2px;
+}
+
+.arrow{
+    position: absolute;
+    right:0px;
+    top: 0px;
+}
+
+.item{
+    margin-top: -17px;
+    position: absolute;
+    left:395px;
+}
+
+.section{
+    position: absolute;
+left: 10.21%;
+right: 76.67%;
+top: 20.55%;
+bottom: 88.36%;
+}
+
+h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+/* Color/Black */
+
+color: #374557;
+
+}
+
+.board{
+  
+    height:150px;
+   margin-top: 200px;
+   margin-left: 35px;
+   margin-right: 35px;
+   width: 1230px;
+
+background: linear-gradient(272.21deg, #5B99CC 0.2%, #5290C4 102.9%);
+box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+border-radius: 15px;
+position: relative;
+left: 172px;
+
+}
+
+.circle{
+    height: 120px;
+    width: 190px;
+    float: left;
+    
+    margin-right: 2px;
+    position: relative;
+    top: 15px;
+}
+
+.text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 27px;
+
+color: #FFFFFF;
+padding-top: 12px;
+padding-left: 50px;
+
+
+
+
+
+}
+
+.two{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 62px;
+    right: 100px;
+}
+
+.box1{
+  margin-left: 150px;
+  margin-top: 49px;
+  margin-bottom: 30px;
+}
+
+
+.box1-b1{
+ 
+
+border: 1px solid #5593C7;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+height: 120px;
+width: 280px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 67px;
+margin-left: 75px;
+
+
+}
+
+h2{
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+
+color: #5593C7;
+}
+
+.box1-b2{
+
+    background: linear-gradient(114.04deg, #5694C7 4.24%, rgba(3, 141, 255, 0.56) 92.96%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 120px;
+width: 280px;
+padding: 67px;
+
+
+    
+}
+
+.box1-b3{
+    height: 160px;
+    width: 600px;
+}
+
+.p2{ 
+    margin-top: 37px;  
+border: 1px solid #65B4F6;
+border-radius: 10px;
+width:200px;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.p2p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+/* Color/Black */
+
+color: #374557;
+
+
+}
+
+.p1p{
+   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: #1D1D1D;
+
+}
+
+.box-con{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+  
+}
+
+.label1  {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.label2  {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.btn-box{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+

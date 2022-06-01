@@ -1,0 +1,108 @@
+<%- include("header"); -%>
+
+
+ <div class="logo">
+    <h1>USER <span>DASHBOARD</span></h1>
+</div>
+
+<div class="nav">
+    <ul>
+        <img src="images/Line 2.svg" alt="" class="line1">
+        <li>
+            <a href="#"><img src="images/bell.svg" alt="" class="bell"><img src="images/11.svg" alt="" class="noti1"></a>
+        </li>
+        <img src="images/Line 2.svg" alt="" class="line2">
+        <li>
+         <a href="#"><img src="images/Email.svg" alt="" class="email"><img src="images/6.svg" alt="" class="noti2"></a>
+     </li>
+         <img src="images/Line 2.svg" alt="" class="line3">
+     <li>
+         <a href="#"><img src="images/Mask Group.svg" alt="" class="face"></a></li>
+             <li class="item">
+         <h6>Udit Gupta</h6>
+         <small>Chief Manager</small></li>
+         <li>
+         <img src="images/Vector.png" alt="" class="arrow">
+     </li>
+     
+    </ul>
+</div>
+
+<div class="section">
+ <h5>Your Score 200%</h5>
+</div>
+
+<div class="board">
+    <img src="images/circle.svg" alt="" class="circle"><img src="images/200%.svg" alt="" class="two">
+    <p class="text">
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    </p>
+</div>
+
+<% de.forEach(function(entry){ %>
+    
+
+<div class="box1">
+    <h5><%= entry.heading  %></h5>
+   </div>
+<div class="box-con">
+  <div class="Box1-b1">
+ <div class="box1-b1">
+     <h2>$<%=entry.pendingAmount%></h2>
+ </div>
+ <p class="label1">Pending Amount</p>
+</div>
+
+<div class="Box2-b2">
+ <div class="box1-b2">
+     <h2><%=entry.pendingDays%> Days</h2>
+ </div>
+ <p class="label2">Pending Days</p>
+</div>
+ <div class="box1-b3">
+     <div class="p1">
+         <p class="p1p">
+            <%=entry.textArea%>  </p></div>
+  
+    <div >
+        <button type="button" class="btn btn-outline-primary p2">More Info</button>
+    </div>
+    
+     
+     
+ </div>
+
+
+</div>
+<% }) %>
+
+
+
+<form action="/" method="post">
+    <div class="box1">
+        <input type="text" name="heading" class="heading" placeholder="Heading" autocomplete="off">
+    </div>
+
+    <div class="box-con">
+    
+    <div class="Box1-b1">
+<input type="number" name="pendingAmount" class="box1-b1" placeholder="Pending Amount" autocomplete="off">
+</div>
+
+<div class="box1-b2">
+    <input type="" name="pendingDays" class="box1-b2" placeholder="Pending Days" autocomplete="off">
+    </div>
+
+    <div class="Box1-b3">
+        <input type="text" name="textArea" class="box1-b3" placeholder="Enter Text" autocomplete="off">
+        </div>
+
+    </div>
+    <div class="btn-box">
+    <button type="submit" class="btn btn-dark">ADD</button>
+    </div>
+</div>
+</form>        
+
+
+<%- include("footer"); -%>
